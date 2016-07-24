@@ -1,5 +1,8 @@
 name: psi4-edu-jupyter
 
+channels:
+  - psi4
+
 dependencies:
   - matplotlib
   - hdf5=1.8.16=0
