@@ -1,27 +1,14 @@
-name: psi4-edu-jupyter
+name: psi4-1p1rc1
 
 channels:
+  - psi4/label/devel
   - psi4
 
 dependencies:
   - matplotlib
-  - hdf5=1.8.16=0
-  - libgcc=5.2.0=0
-  - mkl=11.3.3=0
-  - ncurses=5.9=0
-  - numpy=1.11.0=py27_1
-  - openssl=1.0.2g=0
-  - pip=8.1.1=py27_0
-  #- psi4::chemps2=1.7.1=4
-  #- psi4::pcmsolver=1.1.4=0
-  #- psi4::psi4=1.0.24=py27_g45aac03
-  #- psi4::pychemps2=1.7.1=py27_4
+  - pandas
+  - scipy
   - psi4
-  - python=2.7.11=0
-  - readline=6.2=2
-  - setuptools=20.3=py27_0
-  - sqlite=3.9.2=0
-  - tk=8.5.18=0
-  - wheel=0.29.0=py27_0
-  - zlib=1.2.8=0
+  - psi4-deps
+  - python=3.5
 
